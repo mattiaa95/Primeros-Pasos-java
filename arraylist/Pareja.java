@@ -16,4 +16,9 @@ public class Pareja<T> {
 		return primero;
 	}
 	
+	public static void imprimirEmp(Pareja<? extends Empleado> p) {
+	Empleado primero=p.getPrimero();
+	System.out.println(primero);
+	}
+	
 }
